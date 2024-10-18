@@ -3,3 +3,7 @@ plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
 }
+
+dependencies {
+    implementation "androidx.compose.material:material-icons-extended:1.0.0"
+}
